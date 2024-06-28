@@ -1,21 +1,55 @@
 {
-    "name": "Extension 1.0",
-    "version": "0.0.1",
+    "name": "Extension 2.0",
+    "version": "0.43.5",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
     },
     "files": [
+        "main.ts",
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "probots-buzzer-active.ts",
+        "probots-buzzer-pasive.ts",
+        "oled-12864-i2c.ts",
+        "main.py",
+        "probots-led.ts",
+        "probots-led-rgb-ports.ts",
+        "probots-led-laser.ts",
+        "probots-neopixel.ts",
+        "probots-color-sensor.ts",
+        "probots-ldr-sensor.ts",
+        "probots-push-button.ts",
+        "probots-limit-switch.ts",
+        "probots-capacitive-sensor.ts",
+        "probots-pir.ts",
+        "probots-hall-sensor.ts",
+        "probots-infrared-sensor.ts",
+        "probots-potentiometer.ts",
+        "probots-joystick.ts",
+        "probots-ultrasound-sensor.ts",
+        "probots-microphone.ts",
+        "probots-soil-mosture.ts",
+        "probots-ir-flame-sensor.ts",
+        "alan-wang-dht11-sensor.ts",
+        "probots-ky-013.ts",
+        "probots-water-level.ts",
+        "probots-oled-12864-i2c.ts",
+        "shaoziyan-lcd-i2c.ts",
+        "probots-servo-motor.ts",
+        "probots-motor.ts",
+        "probots-microbit-brick-v1.ts",
+        "probots.ts",
+        "probots-tones.ts",
+        "probots-version.ts",
+        "probots-rain-sensor.ts",
+        "probots-relay.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
     "targetVersions": {
         "target": "6.0.28",
         "targetId": "microbit"
@@ -23,5 +57,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
