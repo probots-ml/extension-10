@@ -62,9 +62,7 @@ enum ConnectionPortsAnalogPitch {
 };
 
 namespace probots{
-
    
-
 /**
  * Description of any pinout connection over each port.
  */
