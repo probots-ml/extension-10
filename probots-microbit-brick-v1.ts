@@ -69,10 +69,10 @@ namespace probots{
 let pinOut: any = {
     1: { P0: DigitalPin.P8,     P1: DigitalPin.P0,  P2: DigitalPin.P19, P3: DigitalPin.P20},
     2: { P0: DigitalPin.P12,    P1: DigitalPin.P1,  P2: DigitalPin.P19, P3: DigitalPin.P20},
-    3: { P0: DigitalPin.P9,     P1: DigitalPin.P2,  P2: DigitalPin.P19, P3: DigitalPin.P20},
+    3: { P0: DigitalPin.P16,    P1: DigitalPin.P2,  P2: DigitalPin.P19, P3: DigitalPin.P20},
     4: { P0: DigitalPin.P6,     P1: DigitalPin.P3,  P2: DigitalPin.P19, P3: DigitalPin.P20},
     5: { P0: DigitalPin.P7,     P1: DigitalPin.P4,  P2: DigitalPin.P19, P3: DigitalPin.P20},
-    6: { P0: DigitalPin.P2,     P1: DigitalPin.P10, P2: DigitalPin.P5,  P3: DigitalPin.P11},
+    6: { P0: DigitalPin.P9,     P1: DigitalPin.P10, P2: DigitalPin.P5,  P3: DigitalPin.P11},
     7: { P0: DigitalPin.P13,    P1: DigitalPin.P14, P2: DigitalPin.P15, P3: DigitalPin.P16},
     8: { P0: DigitalPin.P15,    P1: DigitalPin.P11, P2: DigitalPin.P19, P3: DigitalPin.P20}
     }
