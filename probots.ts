@@ -1,5 +1,5 @@
 
-//% weight=5 color=#ff8000 icon="\uf2db"
+//% weight=5 color=#ff8000 icon="\uf2db" block = "Probots_V1"
 namespace probots{
     
 }
