@@ -1,3 +1,4 @@
+//% block = "Probots V1"
 namespace probots {
 
     //% block="VER 0.2.0"
