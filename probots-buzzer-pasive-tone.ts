@@ -29,14 +29,12 @@ enum ToneFrequency {
 
 namespace probots {
 
-    //% block="play $myNote=ToneFrequency by $timeDuration ms on port %myPort=brickPortPitch"
-    //% blockId=buzzerPasiveToneNoteOn
+    //% block="note %myNote=ToneFrequency by $timeDuration ms on port %myPort=brickPortPitch"
+    //% blockId=buzzerPasive
     //% subcategory="Passive Buzzer"
     //% color=#3A1202
     //% weight=100
-    //% myNote.defl=ToneFrequency.D_SHARP
-    //% timeDuration.min=10 timeDuration.max=5000 timeDuration.defl=1000
-    export function buzzerPasiveToneNoteOn(myNote: number, timeDuration: number, myPort: any): void {
+    export function buzzerPasive(myNote: any, timeDuration: number, myPort: any): void {
         pins.analogSetPitchPin(myPort.P1);
         pins.analogPitch(myNote, timeDuration);
         return
