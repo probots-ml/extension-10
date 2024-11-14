@@ -20,14 +20,15 @@ namespace probots{
      * @param myPort port of connection
     */
     //% blockId=microphoneDetectSound
-    //% block="there is a sound %db=soundIntensity in port %myPort=brickPortADC"
+    //% block="there is a sound %db=soundIntensity in port %myPort=ADCConnectionPorts"
     //% db.defl=soundIntensity.MEDIUM
     //% subcategory="Sound Sensor"
     //% color=#88DD05
     //% weight=100
-    export function microphoneDetectSound(db: soundIntensity, myPort: any): boolean {
+    export function microphoneDetectSound(db: soundIntensity, myPort: ADCConnectionPorts): boolean {
 
-        let deltaSound = microphoneDeltaSound(myPort);
+
+        let deltaSound = microphoneDeltaSound(brickPortADC(myPort));
 
         if (db == soundIntensity.HIGH && deltaSound >= 25) {
             return true;
