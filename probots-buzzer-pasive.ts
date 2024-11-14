@@ -1,6 +1,6 @@
 namespace probots {
     
-  
+    //% "play %note=BUZZER_TONE by $time ms on port %myPort=brickPortPitch"    
     //% subcategory="Passive Buzzer"
     //% color=#A31298
     export function buzzerPasiveOn(note: any, time: number, myPort: any) {
