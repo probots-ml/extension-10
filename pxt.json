@@ -57,5 +57,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "pyprj"
 }
