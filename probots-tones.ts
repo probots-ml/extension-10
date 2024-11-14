@@ -1,7 +1,7 @@
 // Tone Table
 
 
-enum TONE {
+enum BUZZER_TONE {
     //% block=A4
     A = 440,
     //% block=A#4

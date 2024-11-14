@@ -7,14 +7,13 @@ namespace probots {
      * @param myPort Select the port to connect the pasive Buzzer.
      */
 
-    //% block="play %note=TONE by $time ms on %myPort=brickPortPitch
-    //% note.defl=TONE.F
+    //% block="play %note=BUZZER_TONE by $time ms on %myPort=brickPortPitch
+    //% note.defl=BUZZER_TONE.A
     //% time.min=10 time.max=5000 time.defl=1000
     //% weight=100
     //% subcategory="Passive Buzzer"
     //% color=#A31298
-    export function buzzerPasiveOn(note: TONE, time: number, myPort: any): void {
- 
+    export function buzzerPasiveOn(note: any, time: number, myPort: any) {
         pins.analogSetPitchPin(myPort.P1);
         pins.analogPitch(note, time);
         return
