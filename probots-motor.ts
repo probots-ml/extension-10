@@ -33,11 +33,11 @@ namespace probots{
          * @param speed velocity of motor
          */
         //% block="%motor turn on direction %dir=MotorDirection at $speed"
+        //% speed.min=0 speed.max=100 speed.defl=80
         //% weight=99
         //% subcategory="Motor"
         //% color=#A135D9
-        //% speed.min=0 speed.max=100 speed.defl=80
-        motorOn(dir?: MotorDirection, speed?: number): void {
+        motorOn(dir: MotorDirection, speed: number): void {
             this.setVelocity(speed);
             switch (dir) {
                 case MotorDirection.forward:
