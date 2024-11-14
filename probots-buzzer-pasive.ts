@@ -1,12 +1,13 @@
 namespace probots {
     
-    //% block="play %note=BUZZER_TONE by $time ms on port %myPort=brickPortPitch"    
+    //% block="play %myNote=BUZZER_TONE by $timeDuration ms on port %myPort=brickPortPitch"
+    //% blockId=buzzerPassiveNoteOn
     //% subcategory="Passive Buzzer"
     //% color=#A31298
     //% weight=100
-    export function buzzerPasiveOn(note: any, time: number, myPort: any) {
+    export function buzzerPasiveNoteOn(myNote: any, timeDuration: number, myPort: any) {
         pins.analogSetPitchPin(myPort.P1);
-        pins.analogPitch(note, time);
+        pins.analogPitch(myNote, timeDuration);
         return
     }
 
