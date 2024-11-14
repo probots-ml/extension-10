@@ -51,7 +51,7 @@ namespace probots {
     //% color=#DA21DA
     export function doSomeNoise(myPort: any, timeDuration: number) {
         pins.analogSetPitchPin(myPort.P1);
-        pins.analogPitch(440, 1000);
+        pins.analogPitch(440, timeDuration);
         return;
     }
 }
