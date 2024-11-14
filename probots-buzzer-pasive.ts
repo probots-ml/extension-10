@@ -1,13 +1,3 @@
-// 2024-04-26
-// Only allowed to connect in ports 6 and 7
-// because the use of ports with no use of I2C.
-// This sensor use the pin #6, normaly used by SDA 
-// in the rest of ports
-
-// 2024-05-13
-// AnalogPitch only for pins P0, P1, P2
-
-
 namespace probots {
 
     /**
