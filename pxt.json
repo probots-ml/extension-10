@@ -13,7 +13,6 @@
         "README.md",
         "probots-buzzer-active.ts",
         "probots-buzzer-pasive.ts",
-        "oled-12864-i2c.ts",
         "main.py",
         "probots-led.ts",
         "probots-led-rgb-ports.ts",
@@ -36,7 +35,6 @@
         "alan-wang-dht11-sensor.ts",
         "probots-ky-013.ts",
         "probots-water-level.ts",
-        "probots-oled-12864-i2c.ts",
         "shaoziyan-lcd-i2c.ts",
         "probots-servo-motor.ts",
         "probots-motor.ts",
@@ -57,5 +55,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj"
 }
