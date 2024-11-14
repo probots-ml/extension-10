@@ -1,3 +1,4 @@
 basic.forever(function () {
-    probots.buzzerPasiveOn(TONE.A, 0, 0)
+    probots.buzzerPasiveOn(TONE.C, 1000, probots.brickPortPitch(ConnectionPortsAnalogPitch.CON1))
+    
 })

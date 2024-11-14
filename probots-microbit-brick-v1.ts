@@ -119,13 +119,15 @@ let pinOut: any = {
         return pinOut[portToUse];
     }
 
-    //% block="Pitch Port %portToUse"
-    //% blockId="brickPortPitch"
-    //% subcategory="Miscellaneous"
-    //% weight=95
+
+//% block="Pitch Port %portToUse"
+//% blockId="brickPortPitch"
+//% subcategory="Miscellaneous"
+//% weight=95
     export function brickPortPitch(portToUse: ConnectionPortsAnalogPitch): any {
         return pinOut[portToUse];
     }
+
 
     export function getAnalogPin(pin: DigitalPin): any {
         switch (pin) {
