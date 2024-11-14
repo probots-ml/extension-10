@@ -1,7 +1,6 @@
 namespace probots {
 
-    //% block="limit switch was reached on %myPort=brickPort"
-    //% block.loc.es="final de carrera activo en puerto %myPort=brickPort"  
+    //% block="limit switch was reached on %myPort=brickPort" 
     //% weight=100
     //% subcategory="Limit Switch"
     //% color=#FF0099

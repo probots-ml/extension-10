@@ -2,8 +2,7 @@
 
 namespace probots {
 
-    //% block="turn on LED on %myPort=brickPort"
-    //% block.loc.es="encender LED en puerto %myPort=brickPort"  
+    //% block="turn on LED on %myPort=brickPort"  
     //% weight=100
     //% subcategory="LED"
     //% color=#335566
@@ -13,8 +12,7 @@ namespace probots {
         return
     }
 
-    //% block="turn on LED on %myPort=brickPort with intensity %intensity"
-    //% block.loc.es="encender LED en puerto %myPort=brickPort con itensidad %intensity"
+    //% block="turn on LED on %myPort=brickPort with intensity $intensity"
     //% weight=98
     //% subcategory="LED"
     //% color=#335566
@@ -28,7 +26,6 @@ namespace probots {
     }
 
     //% block="turn off LED on %myPort=brickPort"
-    //% block.loc.es="apagar LED en puerto %myPort=brickPort"
     //% weight=97
     //% subcategory="LED"
     //% color=#335566

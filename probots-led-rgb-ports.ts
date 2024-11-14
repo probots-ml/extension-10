@@ -97,7 +97,7 @@ namespace probots {
     }
 
     //% blockId=rgbPortOnByTime
-    //% block="RGB LED on %myPort=brickPort4Pins show color %color=colores_rgb by %duration|ms"
+    //% block="RGB LED on %myPort=brickPort4Pins show color %color=colores_rgb by $duration|ms"
     //% subcategory="LED RGB"
     //% weight=80 
     //% weight=90 color=#99AA05
