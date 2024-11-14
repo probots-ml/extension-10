@@ -1,6 +1,6 @@
 {
     "name": "Probots Extension 1.0",
-    "version": "0.4.16",
+    "version": "0.4.17",
     "description": "",
     "dependencies": {
         "core": "*",
