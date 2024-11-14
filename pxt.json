@@ -33,7 +33,6 @@
         "probots-soil-mosture.ts",
         "probots-ir-flame-sensor.ts",
         "alan-wang-dht11-sensor.ts",
-        "probots-ky-013.ts",
         "probots-water-level.ts",
         "shaoziyan-lcd-i2c.ts",
         "probots-servo-motor.ts",

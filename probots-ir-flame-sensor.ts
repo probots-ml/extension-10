@@ -6,7 +6,6 @@ namespace probots {
        */
     //% blockId=flameSensor
     //% block="It is a presence of flame in %myPort=brickPortADC"
-    //% block.loc.es="Se detecta la presencia de una llama en %myPort=brickPortADC"
     //% weight=100
     //% subcategory="IR Flame Sensor"
     //% color=#28C2B9

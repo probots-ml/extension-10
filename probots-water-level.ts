@@ -6,7 +6,6 @@ namespace probots {
     */
     //% blockId=waterLevel
     //% block="water level on %myPort=brickPortADC"
-    //% block.loc.es="nivel de agua en el puerto %myPort=brickPortADC"
     //% weight=100
     //% subcategory="Water Level"
     //% color=#F93274

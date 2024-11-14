@@ -36,6 +36,17 @@ enum ADCConnectionPorts {
     CON6  
 };
 
+
+/**
+ * Ports with analog pins pitch.
+ */
+enum ConnectionPortsAnalogPitch {
+    CON1 = 1,
+    CON2,
+    CON3
+};
+
+
 /**
  * Ports with 4 pins connections for the ebrick.
  */
@@ -50,15 +61,6 @@ enum ConnectionPorts4Pins {
  */
 enum ConnectionPorts2AnalogPins {
     CON6 = 6
-};
-
-/**
- * Ports with analog pins pitch.
- */
-enum ConnectionPortsAnalogPitch {
-    CON1 = 1,
-    CON2,
-    CON3
 };
 
 namespace probots{
@@ -190,5 +192,4 @@ let pinOut: any = {
                 break;
         }
     }
-     
 }

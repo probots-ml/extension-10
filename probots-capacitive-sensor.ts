@@ -1,7 +1,6 @@
 namespace probots {
 
     //% block="capacitive sensor touched on %myPort=brickPort"
-    //% block.loc.es="sensor capacitivo en puerto %myPort=brickPort"  
     //% weight=100
     //% subcategory="Capacitive Sensor"
     //% color=#663377

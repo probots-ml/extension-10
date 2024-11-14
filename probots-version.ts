@@ -5,7 +5,7 @@ namespace probots {
     //% subcategory="Miscellaneous"
     //% color=#663377
     export function getActualVersion(): string {
-        return "0.3.x";
+        return "0.4.x";
     }
 
 }

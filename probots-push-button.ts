@@ -1,7 +1,6 @@
 namespace probots {
 
     //% block="button was pressed on %myPort=brickPort"
-    //% block.loc.es="botón presionado en puerto %myPort=brickPort"  
     //% weight=100
     //% subcategory="Push Button"
     //% color=#663377

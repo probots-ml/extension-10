@@ -1,4 +1,3 @@
-// Tone Table
 
 
 enum BUZZER_TONE {

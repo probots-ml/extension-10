@@ -4,8 +4,7 @@ namespace probots {
          * Detects a if there is enough humidity in the soil.
          * @param myPort port of connection
     */
-    //% block="high soil mosture on %myPort=brickPort"
-    //% block.loc.es="humedad del suelo alta en puerto %myPort=brickPort"  
+    //% block="high soil mosture on %myPort=brickPort" 
     //% weight=100
     //% subcategory="Soil Mosture"
     //% color=#BC21BC

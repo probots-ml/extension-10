@@ -17,4 +17,9 @@ basic.forever(function () {
     basic.pause(500)
     probots.rgbPortOff(probots.brickPort4Pins(ConnectionPorts4Pins.CON7))
     basic.pause(500)
+
+    probots.rgbPortOn(probots.brickPort4Pins(ConnectionPorts4Pins.CON7), ColorLedRGB.White)
+    basic.pause(500)
+    probots.rgbPortOff(probots.brickPort4Pins(ConnectionPorts4Pins.CON7))
+    basic.pause(500)
 })
