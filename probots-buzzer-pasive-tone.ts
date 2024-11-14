@@ -45,6 +45,7 @@ namespace probots {
     }
 
     //% block="play A(440) on %myPort=brickPort by a $timeDuration"
+    //% timeDuration.min=10 timeDuration.max=5000 timeDuration.defl=1500
     //% weight=98
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
