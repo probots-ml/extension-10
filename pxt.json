@@ -16,6 +16,7 @@
         "probots.ts",
         "probots-version.ts",
         "probots-buzzer-active.ts",
+        "probots-buzzer-pasive-tone.ts",
         "probots-led.ts",
         "probots-led-rgb-ports.ts",
         "probots-led-laser.ts",
@@ -40,8 +41,7 @@
         "probots-servo-motor.ts",
         "probots-motor.ts",
         "probots-rain-sensor.ts",
-        "probots-relay.ts",
-        "probots-buzzer-pasive-tone.ts"
+        "probots-relay.ts"
     ],
     "testFiles": [
         "test.ts"
