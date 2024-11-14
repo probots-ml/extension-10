@@ -26,3 +26,20 @@ enum BUZZER_TONE {
     //% block=G#4
     G_SHARP = 830
 }
+
+namespace probots {
+
+    //% block="play note $myNote=BUZZER_TONE by $timeDuration ms on port %myPort=brickPortPitch"
+    //% blockId=buzzerPasiveToneNoteOn
+    //% subcategory="Passive Buzzer"
+    //% color=#A31298
+    //% weight=90
+    //% myNote.defl=BUZZER_TONE.A
+    //% timeDuration.min=10 timeDuration.max=5000 timeDuration.defl=1000
+    export function buzzerPasiveToneNoteOn(myNote?: number, timeDuration?: number, myPort?: any): void {
+        pins.analogSetPitchPin(myPort.P1);
+        pins.analogPitch(myNote, timeDuration);
+        return
+    }
+
+}
