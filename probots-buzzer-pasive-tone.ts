@@ -45,11 +45,12 @@ namespace probots {
     }
 
     //% block="play %singleNote=ToneFrequency on %myPort=brickPort by a $timeDuration"
+    //% singleNote.defl=ToneFrequency.A4
     //% timeDuration.min=10 timeDuration.max=5000 timeDuration.defl=1500
     //% weight=98
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
-    export function doSomeNoise(myPort: any, timeDuration: number, singleNote: number) {
+    export function doSomeNoise(singleNote: number, myPort: any, timeDuration: number) {
         pins.analogSetPitchPin(myPort.P1);
         pins.analogPitch(singleNote, timeDuration);
         return;
