@@ -7,9 +7,9 @@ namespace probots {
      * @param myPort Select the port to connect the pasive Buzzer.
      */
 
-    //% block="play %note=TONE by $time ms on %myPort=brickPortPitch"
+    //% block="play %note=TONE by $time ms on %myPort=brickPortPitch
+    //% note.defl=TONE.F
     //% time.min=10 time.max=5000 time.defl=1000
-    //% note.defl=TONE.C
     //% weight=100
     //% subcategory="Passive Buzzer"
     //% color=#A31298
