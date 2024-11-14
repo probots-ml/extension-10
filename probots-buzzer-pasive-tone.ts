@@ -34,6 +34,9 @@ namespace probots {
     //% weight=100
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
+    //% duration.min = 20
+    //% duration.max = 10000
+    //% duration.defl = 500
     export function doSomeNote(singleNote: ToneFrequency, myPort: ConnectionPortsAnalogPitch, duration: number)
     {
         pins.analogSetPitchPin(brickPortPitch(myPort).P1);
