@@ -17,7 +17,6 @@
         "probots-tones.ts",
         "probots-version.ts",
         "probots-buzzer-active.ts",
-        "probots-buzzer-pasive.ts",
         "probots-led.ts",
         "probots-led-rgb-ports.ts",
         "probots-led-laser.ts",

@@ -36,7 +36,7 @@ namespace probots {
     //% weight=90
     //% myNote.defl=BUZZER_TONE.A
     //% timeDuration.min=10 timeDuration.max=5000 timeDuration.defl=1000
-    export function buzzerPasiveToneNoteOn(myNote?: number, timeDuration?: number, myPort?: any): void {
+    export function buzzerPasiveToneNoteOn(myNote?: any, timeDuration?: number, myPort?: any): void {
         pins.analogSetPitchPin(myPort.P1);
         pins.analogPitch(myNote, timeDuration);
         return
