@@ -44,11 +44,11 @@ namespace probots {
         return;
     }
 
-    //% block="play A(440) on %myPort=brickPort by a second"
+    //% block="play A(440) on %myPort=brickPort by a $timeDuration"
     //% weight=98
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
-    export function doSomeNoise(myPort: any) {
+    export function doSomeNoise(myPort: any, timeDuration: number) {
         pins.analogSetPitchPin(myPort.P1);
         pins.analogPitch(440, 1000);
         return;
