@@ -98,10 +98,10 @@ namespace probots {
 
     //% blockId=rgbPortOnByTime
     //% block="RGB LED on %myPort=brickPort4Pins show color %color=ColorLedRGB by $duration|ms"
+    //% duration.defl=1000
     //% subcategory="LED RGB"
     //% weight=80 
     //% weight=90 color=#99AA05
-    //% duration.defl=1000
     export function rgbPortOnByTime(myPort: any, color: ColorLedRGB, duration: number): void {
         rgbPortOn(myPort, color);
         basic.pause(duration);
