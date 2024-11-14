@@ -31,9 +31,14 @@ namespace probots {
     export function rgbPortOn(myPort: any, color: ColorLedRGB): void {
         
         //2024-05-10: invert green and blue
+       // let ledRed = myPort.P2;
+        //let ledGreen = myPort.P1;
+        //let ledBlue = myPort.P0;
+
+        //2024-11-14: rearrange leds
         let ledRed = myPort.P2;
-        let ledGreen = myPort.P1;
-        let ledBlue = myPort.P0;
+        let ledBlue = myPort.P1;
+        let ledGreen = myPort.P0;
 
         pins.digitalWritePin(ledRed, 0);
         pins.digitalWritePin(ledGreen, 0);
