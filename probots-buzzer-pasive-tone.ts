@@ -30,14 +30,14 @@ enum ToneFrequency {
 namespace probots {
 
     
-    //% block="play A(440) on %myPort=brickPort"
+    //% block="play A(440) on %myPort=brickPort by a second"
     //% weight=100
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
     export function doSomeNoise(myPort: any)
     {
         pins.analogSetPitchPin(myPort.P1);
-        pins.analogPitch(440, 500);
+        pins.analogPitch(440, 1000);
         return;
     }
 }
