@@ -1,6 +1,6 @@
 namespace probots {
     
-    //% block="play %myNote=BUZZER_TONE by $timeDuration ms on port %myPort=brickPortPitch"
+    //% block="play $myNote=BUZZER_TONE by $timeDuration ms on port %myPort=brickPortPitch"
     //% blockId=buzzerPassiveNoteOn
     //% subcategory="Passive Buzzer"
     //% color=#A31298
