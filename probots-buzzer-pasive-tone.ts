@@ -30,7 +30,7 @@ enum ToneFrequency {
 namespace probots {
 
     
-    //% block="play %singleNote=ToneFrequency on %myPort=ConnectionPortsAnalogPitch by a $duration"
+    //% block="by a $duration ms play %singleNote=ToneFrequency on %myPort=ConnectionPortsAnalogPitch"
     //% weight=100
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
