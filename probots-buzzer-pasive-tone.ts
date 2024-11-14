@@ -34,9 +34,9 @@ namespace probots {
     //% weight=100
     //% subcategory="Passive Buzzer"
     //% color=#DA21DA
-    export function doSomeNote(singleNote: ToneFrequency, myPort: any)
+    export function doSomeNote(singleNote: ToneFrequency, myPort: ConnectionPortsAnalogPitch)
     {
-        pins.analogSetPitchPin(myPort.P1);
+        pins.analogSetPitchPin(brickPortPitch(myPort).P1);
         pins.analogPitch(singleNote, 1000);
         return;
     }
